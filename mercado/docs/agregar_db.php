@@ -25,7 +25,6 @@
 		return $password.'-'.$password1;
 	}
 	
-	import_request_variables("GPC");
 	include("imagen.php");
 	require 'resources/config.php';
 	require 'resources/connectDb.php';
