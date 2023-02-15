@@ -1,0 +1,218 @@
+@CHARSET "UTF-8";
+
+.pagina-avisos{
+	font-family: open_sans_semibold;
+	width: 80%;
+	min-height: 100%;
+	margin-left: 15%;
+	padding-left: 1%;
+}
+
+.aviso{
+	display: inline;
+	float: left;
+	margin: 15px;
+	width: 250px;
+	height: 250px;
+	border: 1px solid #bbb;	
+	text-align: left !important;
+	box-shadow: 0px 0px 4px 0px #BBB; 	
+}
+
+.aviso h5,
+.datos-avisos div.datos h5{	
+	color: #D83B20;
+	font-family: open_sans_semibold;
+	font-size: 14px;
+	border-bottom: 1px solid #D83B20;
+	margin-top: 10px;	
+	padding-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.datos-avisos div.datos h5{
+	margin-top: 0px;
+	padding-top: 10px;
+}
+
+.aviso h5 a,
+.datos-avisos div.datos h5 a{
+	color: #D83B20;
+	text-decoration: none;	
+}
+
+.aviso div.imagen{
+	width: 100%;
+	height: 125px;
+	position: relative;
+}
+
+.aviso div.imagen span,
+.datos-avisos div.imagen span,
+div.imagenes-avisos div.imagen span{
+	color:#fafafa;
+	background-color: #D83B20;
+	padding: 3px;
+	position: absolute;
+	right: 0;
+	bottom: 0px;
+	display: block;
+	cursor: hand;
+}
+
+.aviso img{
+	width: 100%;
+	margin: 0px;
+	height: 125px;	
+}
+
+.aviso p.descripcion{
+	margin-top: -10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 13px;
+	color: #333;
+	border-bottom: 1px solid #333;
+	padding-bottom: 10px;
+}
+
+.aviso p.precio{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 13px;
+	color: #333;	
+	padding-bottom: 10px;
+}
+
+.paginador{
+	margin: 5px;
+	width: 80%;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;	
+}
+
+.paginador span{
+	text-align: center;
+	padding: 2px;
+	font-size: .8em;
+	border: 1px solid #eee;
+}
+
+.paginador span a{
+	text-decoration: none;
+	color: #333;
+}
+
+.paginador span.current, .paginador span.current a{
+	background-color: #006699;
+	border-color: #006699;
+	color: #eee !important;
+}
+
+
+.datos-avisos{	
+	width:100%;	
+}
+
+.datos-avisos div.datos{
+	width: 300px;	
+	float: left;
+	margin-left:5px;
+}
+
+.datos-avisos p{
+	margin: 0px;
+	line-height: 21px;
+	font-size: 13px;
+	color: #333;
+	font-family: open_sans_semibold;
+	margin-left: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #333;
+	margin-right: 10px;
+}
+
+.datos-avisos ul{
+	font-size: 13px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 1px solid #333;
+	padding-bottom: 20px;
+}
+
+.datos-avisos p.precio{
+	padding-top: 20px;
+	border-color: #D83B20;
+}
+
+.datos-avisos div.imagen{
+	margin-top: 10px;
+	width: 600px;
+	height: 310px;
+	display: inline-block;
+	margin-bottom: 20px;
+	position: relative;
+	font-size: 13px;
+}
+.datos-avisos div.imagen img{
+	width: 100%;
+	height: 100%;
+}
+
+div.imagenes-avisos{
+	width: 100%;
+	display: inline;
+}
+
+div.imagenes-avisos div.imagen{
+	float: left;
+	max-width: 435px;
+	margin: 12px;
+	position: relative;
+	font-size: 13px;
+}
+
+div.imagenes-avisos a{
+	display: inline-block;
+}
+
+div.imagenes-avisos img{
+	width: 435px;
+	height: auto;
+	display: inline;	
+	float: left;
+}
+
+.dato-label{
+	font-family: open_sans_light;;
+}
+
+#operaciones{		
+	width:645px;
+}
+
+.breadcrumb{
+	font-size: .7em;
+	color:#666;
+	border-bottom: 1px solid #333;
+	width: 645px;
+	padding: 0;	
+	margin-bottom: 2px;
+}
+
+.breadcrumb p{
+	margin: 0;
+	margin-bottom:1px;
+	padding: 0;
+}
+
+.breadcrumb a{
+	text-decoration: none;
+	color:inherit;
+	font-weight: bold
+}

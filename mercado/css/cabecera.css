@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+.link {background-color: #fff;font-size: 11px;padding: 7px;}
+.link:hover {	background-color: #5F6F83;	}
+.link a{text-decoration: none;color:#000;}
+.link:hover a{color:#fff;}
+
+.publicidad_flash{
+	background-color:#fff;
+	width:200px; 
+	height:120px;	
+}

@@ -1,0 +1,106 @@
+@font-face {
+	font-family: open_sans;
+	src: url('../fonts/open_sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: open_sans_bold_italic;
+	src: url('../fonts/open_sans/OpenSans-BoldItalic.ttf');
+}
+
+@font-face {
+	font-family: open_sans_bold;
+	src: url('../fonts/open_sans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+	font-family: open_sans_semibold;
+	src: url('../fonts/open_sans/OpenSans-Semibold.ttf');	
+}
+
+@font-face {
+	font-family: open_sans_italic;
+	src: url('../fonts/open_sans/OpenSans-Italic.ttf');
+}
+
+@font-face {
+	font-family: open_sans_light_italic;
+	src: url('../fonts/open_sans/OpenSans-LightItalic.ttf');
+}
+
+@font-face {
+	font-family: open_sans_light;
+	src: url('../fonts/open_sans/OpenSans-Light.ttf');
+}
+
+@font-face {
+	font-family: purista;
+	src: url('../fonts/purista/Purista_Semibold.ttf');
+}
+
+ul.menu {
+	list-style: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu li {
+	padding-bottom: 12px;
+	padding-top: 12px;
+	text-overflow: ellipsis;
+	color:#fafafa;
+}
+
+.menu{
+	width: 100%;		
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	position:absolute;
+	top: 0;
+	left:0;
+}
+
+.menu li{
+	border: 1px solid #c0392b;	
+	background-color: #D83B20;
+	border-bottom: 1px solid #e74c3c;
+}
+.menu li:last-child{
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.menu li a{
+	color: #FAFAFA;
+	font-size: 13px;
+	font-family: open_sans_light;
+}
+
+.menu li:hover {
+	background-color: #e74c3c;
+	border: 1px solid #e74c3c;
+}
+
+.menu li:hover a:hover {
+	color: #fff !important;
+}
+
+.menu li ul {
+	display: none;
+}
+
+.menu li:hover ul {
+	display: block;
+	background-color: #F2F2F2;
+}
+
+.menu li:hover ul li a {
+	color: #000;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #000;
+	margin-left: 2px;
+}
